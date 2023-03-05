@@ -10,7 +10,6 @@
 <script setup lang="ts">
 import Map from "./components/Map.vue";
 import Alert from "./components/Alert.vue";
-import Sidebar from "./components/sidebar/Sidebar.vue";
 import { alerts } from "./store/app";
 import { initialize } from "./store/data";
 import { onMounted } from "vue";
@@ -21,14 +20,14 @@ onMounted(() => {
 </script>
 
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Alegreya+Sans:wght@500&display=swap');
 @import "./assets/_variables.scss";
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Baloo Tamma 2";
+    font-family: "Alegreya Sans";
     font-weight: 500;
     color: $textColor;
 }
