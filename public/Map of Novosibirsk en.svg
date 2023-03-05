@@ -17,6 +17,21 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+   <style type="text/css"><![CDATA[
+    @font-face {
+        font-family: "Alegreya Sans";
+        src: url("AlegreyaSans-Medium.woff") format("woff");
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: "Alegreya Sans SC";
+        src: url("AlegreyaSansSC-Medium.woff") format("woff");
+        font-weight: 500;
+        font-style: normal;
+    }
+   ]]></style>
   <sodipodi:namedview
      id="namedview7"
      pagecolor="#ffffff"
