@@ -10,12 +10,14 @@
             @click="useTool"
             :style="mapStyle"
         >
+            <div class="tabsContainer">
+                <Tabs></Tabs>
+            </div>
             <div class="mapContent" :style="mapPositionStyle" ref="mapRef">
-                <object type="image/svg+xml" :data="`${currentMapImageSrc}`" alt="" class="image" ref="image" />
+                <object type="image/svg+xml" :data="`${currentMapImageSrc}`" alt="" class="image" ref="image" style="width: 100%" />
                 <Pin v-for="pin in pins" :key="pin.id" :pin="pin" :style="pinStyle" @edit="editPin"></Pin>
             </div>
         </div>
-        <Button class="addBtn" @click="selectAddTool" :primary="true"> <Icon name="md-add-round"></Icon></Button>
         <PinDialog
             :open="pinDialogOpen"
             :preset-values="pinDialogPresetValues"
@@ -28,7 +30,7 @@
 <script setup lang="ts">
 import { computed, reactive, ref } from "vue";
 import PinDialog from "../components/dialog/PinDialog.vue";
-import Button from "./Button.vue";
+import Tabs from "../components/sidebar/Tabs.vue";
 import Pin from "./Pin.vue";
 import { addAlert, currentMapImageSrc, currentArea } from "../store/app";
 import { pins, upsertPrivatePin, deletePrivatePin } from "../store/data";
@@ -164,5 +166,10 @@ const deletePin = () => {
     position: fixed;
     bottom: 12px;
     right: 12px;
+}
+
+.tabsContainer {
+    position: fixed;
+    z-index: 1;
 }
 </style>

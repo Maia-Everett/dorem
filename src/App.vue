@@ -1,6 +1,5 @@
 <template>
     <div class="home">
-        <Sidebar></Sidebar>
         <Map></Map>
     </div>
     <div class="alerts">
@@ -73,7 +72,7 @@ body {
 
 .home {
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "sidebar map";
 
