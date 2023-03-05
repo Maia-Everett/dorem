@@ -5,16 +5,16 @@ import { IAlert } from "../types/Data";
 export const currentArea = computed(() => mapLocations.value[mapLocationIndex.value].name);
 export const mapLocations = ref([
     {
-        name: "Azura",
-        path: "Map_Azura.png",
+        name: "Edhellen",
+        path: "Map of Novosibirsk sjn.svg",
     },
     {
-        name: "Farmlands",
-        path: "Map_Farmlands.png",
+        name: "English",
+        path: "Map of Novosibirsk en.svg",
     },
     {
-        name: "Windless Woods",
-        path: "Map_WindlessWoods.png",
+        name: "Русский",
+        path: "Map of Novosibirsk ru.svg",
     }
 ]);
 export const mapLocationIndex = ref(0);
