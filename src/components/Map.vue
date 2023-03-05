@@ -11,7 +11,7 @@
             :style="mapStyle"
         >
             <div class="mapContent" :style="mapPositionStyle" ref="mapRef">
-                <img :src="`${currentMapImageSrc}`" alt="" class="image" ref="image" />
+                <object type="image/svg+xml" :data="`${currentMapImageSrc}`" alt="" class="image" ref="image" />
                 <Pin v-for="pin in pins" :key="pin.id" :pin="pin" :style="pinStyle" @edit="editPin"></Pin>
             </div>
         </div>

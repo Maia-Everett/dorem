@@ -3,7 +3,7 @@
         <div class="locations">
             <Tabs></Tabs>
         </div>
-        <div class="sections">
+        <div class="sections" v-if="false">
             <p>Categories</p>
             <FoldableSection class="category" v-for="category in categories" :key="category.id" :title="category.title">
                 <template #content>
