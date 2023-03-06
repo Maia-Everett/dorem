@@ -17,7 +17,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-   <style type="text/css"><![CDATA[
+  <style
+     type="text/css"
+     id="style2"><![CDATA[
     @font-face {
         font-family: "Alegreya Sans";
         src: url("AlegreyaSans-Medium.woff") format("woff");
@@ -48,7 +50,7 @@
      fit-margin-bottom="0"
      inkscape:zoom="1.6226949"
      inkscape:cx="1078.4529"
-     inkscape:cy="1651.8816"
+     inkscape:cy="1725.8327"
      inkscape:window-width="1920"
      inkscape:window-height="1004"
      inkscape:window-x="0"
@@ -351,18 +353,18 @@
          y="512.63483" /></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333px;line-height:1;font-family:'Alegreya Sans';-inkscape-font-specification:'Alegreya Sans Medium';stroke-width:0.264583;text-anchor:middle;text-align:center"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333px;line-height:1;font-family:'Alegreya Sans';-inkscape-font-specification:'Alegreya Sans Medium';text-align:center;text-anchor:middle;stroke-width:0.264583"
        x="292.64966"
        y="480.75821"
        id="text178389"><tspan
          sodipodi:role="line"
          id="tspan178387"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333px;font-family:'Alegreya Sans';-inkscape-font-specification:'Alegreya Sans Medium';stroke-width:0.264583;text-anchor:middle;text-align:center"
-         x="286.76956"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333px;font-family:'Alegreya Sans';-inkscape-font-specification:'Alegreya Sans Medium';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="292.64966"
          y="480.75821">Arched</tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333px;font-family:'Alegreya Sans';-inkscape-font-specification:'Alegreya Sans Medium';stroke-width:0.264583;text-anchor:middle;text-align:center"
-         x="286.76956"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:4.23333px;font-family:'Alegreya Sans';-inkscape-font-specification:'Alegreya Sans Medium';text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="292.64966"
          y="484.99155"
          id="tspan47186">Shore</tspan></text>
     <text
